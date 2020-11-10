@@ -45,14 +45,10 @@ a {
   color: var(--light);
 }
 
-
 /* push title over to right side */
 .push {
   margin-right: auto;
 }
-
-
-
 
 /* ***** footer ******* */
 
@@ -151,6 +147,11 @@ iframe {
 }
 
 /* ***** merch ****** */
+
+.merch-box > h2{
+  margin-top: 40vh;
+  color: var(--light);
+}
 
 
 /* media queries */
