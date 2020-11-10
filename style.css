@@ -1,0 +1,162 @@
+:root {
+  --medium: #414141;
+  --dark: black;
+  --light: #fff;
+}
+
+* {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: auto 0;
+  background-color: var(--dark);
+}
+
+.zone {
+    cursor: pointer;
+    color: var(--light);
+    font-size:2em;
+    background-color: var(--medium);
+}
+
+/* ****** navbar ******** */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 0.5em;
+  margin: 0;
+}
+
+.main-nav > li {
+  padding: 20px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+
+/* push title over to right side */
+.push {
+  margin-right: auto;
+}
+
+
+
+
+/* ***** footer ******* */
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  color: var(--medium);
+  font-size: 0.7em;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/************ index  ***************/
+  
+.logo img{
+  margin-top: 5.4em;
+  max-height: 80vh;
+}
+
+/* *** ABOUT PAGE ***** */
+
+.about-container {
+  display: flex;
+  color: var(--light);
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  line-height: 25px;
+  
+
+}
+
+.about-container img {
+  max-height: 50vh;
+}
+
+.text-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* ***** listen online ***** */
+
+
+.cover {
+  max-width: 20%;
+}
+
+.audio-container {
+  display: grid;
+  align-self: center;
+  grid-gap: 30px;
+  margin-top: 130px;
+  color: var(--light);
+}
+
+.audio {
+  margin: auto;
+}
+
+#lyricbutton {
+  background-color: var(--dark);
+  border: none;
+  font-size: 1.2rem;
+  color:  var(--light);
+  padding: 10px;
+}
+
+#lyrics {
+  color:  var(--light);
+  width: 100%;
+  text-align: center;
+  background-color: var(--dark);
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* ***** schedule ***** */
+
+iframe {
+  height: 70vh;
+  width: 90vh;
+  border: 0;
+  margin-top: 17vh;;
+}
+
+/* ***** merch ****** */
+
+
+/* media queries */
+@media only screen and (max-width: 500px) {
+  .main-nav {
+    font-size: 0.15em;
+    padding: 0;
+  }
+}
